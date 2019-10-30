@@ -39,11 +39,11 @@ const close_it = () => {
 document.getElementById("close").addEventListener("click",close_it);
 
 ///////////////////////////////////////////////
-function on1() {
+const on1 = () => {
   document.getElementById("overlay1").style.display = "block";
 }
 
-function off1() {
+const off1() {
   document.getElementById("overlay1").style.display = "none";
 }
 function on2() {
